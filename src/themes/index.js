@@ -1,6 +1,4 @@
-import AdapterDateFns from "@mui/lab/AdapterDateFns";
 
-import LocalizationProvider from "@mui/lab/LocalizationProvider";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
 import { useMemo } from "react";
@@ -16,7 +14,7 @@ const ThemeConfig = ({ children }) => {
   const theme = createTheme(themeOptions);
 
   return (
-    <LocalizationProvider dateAdapter={AdapterDateFns}>
+ 
       <ThemeProvider theme={theme}>
         <CssBaseline />
 
@@ -24,7 +22,7 @@ const ThemeConfig = ({ children }) => {
 
         {children}
       </ThemeProvider>
-    </LocalizationProvider>
+  
   );
 };
 

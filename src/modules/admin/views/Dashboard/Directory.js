@@ -11,7 +11,7 @@ const StyledCard = styled("div")
   ({ textAlign: "center", marginTop: "100px" })
 const Search = styled(InputBase) ({
     width: "264px", height: "32px", border: "1px solid #CDCED9",
-  borderRadius: "2px", marginRight: "5px",
+  borderRadius: "2px",
 })
 
 const Directory = () => {

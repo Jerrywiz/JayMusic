@@ -11,7 +11,7 @@ const Layout = () => {
    
       <Sidebar />
       <Topbar/>
-      <div style={{ width: "100%", paddingTop: "80px" }}>
+      <div style={{ width: "100%", paddingTop: "80px", height:'100vh', background:'grey' }}>
         <Outlet>
         </Outlet>
       </div>
